@@ -1,5 +1,5 @@
 body {
-   background-color: #FFFFFF;
+   background-color: #eeeeee;
    font-family: Arial, sans-serif;
    color: #333333;
    margin: 0;
@@ -41,7 +41,9 @@ h1 {
 .tab {
    flex: 1;
    background-color: #3498db;
+   border-radius: 5px;
    text-align: center;
+   margin: 3px;
    padding: 10px;
    cursor: pointer;
    text-align:7ab7;
@@ -49,11 +51,14 @@ h1 {
 }
 
 .tab-content {
+   
    display: none;
    padding-top: 20px;
 }
 
 .converter input {
+   background-color: #ffffff;
+   border-radius: 5px;
    width: 100%;
    padding: 10px;
    box-sizing: border-box;
@@ -62,16 +67,24 @@ h1 {
 
 .convert-button {
    background-color: #3498db;
-   color: #FFFFFF;
+   border-radius: 5px;
+   color: #fff;
    padding: 10px 20px;
    margin: 10px 0;
    cursor: pointer;
    border: none;
    transition: all 0.3s;
-}
+ }
+ 
+ .convert-button:hover {
+   background-color: #333333;
+   color: #3498db;
+   box-shadow: 0 0 10px #3498db;
+ }
+ 
 
 .result {
-   padding-top:: 5px 10px;
+   padding-top: 5px 10px;
 }
 
 footer {
