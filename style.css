@@ -1,0 +1,85 @@
+body {
+   background-color: #FFFFFF;
+   font-family: Arial, sans-serif;
+   color: #333333;
+   margin: 0;
+   padding: 0;
+   transition: all 0.3s;
+}
+
+header {
+   background-color: #3498db;
+   text-align: center;
+   padding: 20px 0;
+   transition: all 0.3s;
+}
+
+h1 {
+   margin: 0;
+   font-size: 2em;
+   color: #FFFFFF;
+   transition: all 0.3s;
+}
+
+.tab-container {
+   width: 100%;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px 0;
+   transition: all 0.3s;
+}
+
+.tabs {
+   display: flex;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   transition: all 0.3s;
+}
+
+.tab {
+   flex: 1;
+   background-color: #3498db;
+   text-align: center;
+   padding: 10px;
+   cursor: pointer;
+   text-align:7ab7;
+   transition: all 0.3s;
+}
+
+.tab-content {
+   display: none;
+   padding-top: 20px;
+}
+
+.converter input {
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+   transition: all 0.3s;
+}
+
+.convert-button {
+   background-color: #3498db;
+   color: #FFFFFF;
+   padding: 10px 20px;
+   margin: 10px 0;
+   cursor: pointer;
+   border: none;
+   transition: all 0.3s;
+}
+
+.result {
+   padding-top:: 5px 10px;
+}
+
+footer {
+   background-color: #3498db;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 10px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
