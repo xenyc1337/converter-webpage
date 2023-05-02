@@ -50,6 +50,12 @@ function convert(base) {
    `;
 }
 
+Object.defineProperty(window, "console", {
+    value: console,
+    writable: false,
+    configurable: false
+});
+
 // Initialize the first tab by default
 document.addEventListener("DOMContentLoaded", function() {
    openTab({currentTarget: document.getElementsByClassName("tab")[0]}, "Binary");
